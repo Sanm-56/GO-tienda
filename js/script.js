@@ -246,3 +246,13 @@ function aplicarDisponible(estado, botonAgregar) {
         botonAgregar.textContent = "Agregar";
     }
 }
+
+function mostrarDetal() {
+  document.getElementById("detal").style.display = "block";
+  document.getElementById("mayorista").style.display = "none";
+}
+
+function mostrarMayorista() {
+  document.getElementById("detal").style.display = "none";
+  document.getElementById("mayorista").style.display = "block";
+}
