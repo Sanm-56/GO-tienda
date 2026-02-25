@@ -343,4 +343,21 @@ nav ul li {
 }
 #nosotros p {
     color: white;
+
+}
+.btn-mayorista {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #25D366; /* verde WhatsApp */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-mayorista:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.05);
 }
