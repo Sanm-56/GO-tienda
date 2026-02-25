@@ -390,3 +390,18 @@ nav ul li {
 .selector-clientes button:hover {
   transform: scale(1.05);
 }
+
+.mensaje-selector {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.mensaje-selector h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.mensaje-selector p {
+  font-size: 15px;
+  color: #666;
+}
