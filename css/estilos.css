@@ -361,3 +361,32 @@ nav ul li {
   background-color: #1ebe5d;
   transform: scale(1.05);
 }
+
+.selector-clientes {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.selector-clientes button {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selector-clientes button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.selector-clientes button:last-child {
+  background-color: #25D366;
+  color: white;
+}
+
+.selector-clientes button:hover {
+  transform: scale(1.05);
+}
